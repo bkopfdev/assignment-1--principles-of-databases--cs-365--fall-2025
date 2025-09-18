@@ -1,25 +1,44 @@
 {
-  "student-log": [{
-    "student": {
-      "student-id": "1234567",
-      "first-name": "Gordon",
-      "middle-name": "Matthew",
-      "last-name": "Sumner",
-      "preferred-name": "Sting",
-      "contact-info": {
-        "email": "sting@thepolice.com",
-        "phone": "212.123.4567"
-      },
-      "academic-information": {
-        "status-year": "first year",
-        "gpa": 4.0,
-        "major": "Music",
-        "minor": "English",
-        "status-enrollment": "full-time",
-        "advisor": "Andy Summers",
-        "date-initial-enrollment": "08-25-1969",
-        "graduation-date": "05-01-1973"
-      }
+  "students": [{
+    "student-id": "1234567",
+    "first-name": "Gordon",
+    "middle-name": "Matthew",
+    "last-name": "Sumner",
+    "preferred-name": "Sting",
+    "contact-info": {
+      "email": "sting@thepolice.com",
+      "phone": "212.123.4567"
+    },
+    "academic-information": {
+      "status-year": "first year",
+      "gpa": 4.0,
+      "major": "Music",
+      "minor": "English",
+      "status-enrollment": "full-time",
+      "advisor": "Andy Summers",
+      "date-initial-enrollment": "08-25-1969",
+      "graduation-date": "05-01-1973"
+    }
+  },
+  {
+    "student-id": "4567890",
+    "first-name": "Kim",
+    "middle-name": "",
+    "last-name": "Thayil",
+    "preferred-name": "",
+    "contact-info": {
+      "email": "kim@soundgarden.com",
+      "phone": "206.123.4567"
+    },
+    "academic-information": {
+      "status-year": "second year",
+      "gpa": 3.0,
+      "major": "Philosphy",
+      "minor": "Music",
+      "status-enrollment": "full-time",
+      "advisor": "Chris Cornell",
+      "date-initial-enrollment": "08-25-1978",
+      "graduation-date": "05-01-1982"
     }
   }]
 }

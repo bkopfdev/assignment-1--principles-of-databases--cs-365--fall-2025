@@ -1,0 +1,22 @@
+<!ELEMENT student-log (student)+>
+
+<!ELEMENT student (id, first-name, middle-name?, last-name, preferred-name?, contact-info, academic-information)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT middle-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT preferred-name (#PCDATA)>
+
+<!ELEMENT contact-info (email, phone)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+
+<!ELEMENT academic-information (status-year, gpa, major, minor?, status-enrollment, advisor, date-initial-enrollment, graduation-date?)>
+<!ELEMENT status-year (first-year | second-year | third-year | fourth-year | graduate)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT status-enrollment (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT date-initial-enrollment (#PCDATA)>
+<!ELEMENT graduation-date (#PCDATA)>
