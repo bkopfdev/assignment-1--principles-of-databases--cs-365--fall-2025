@@ -33,7 +33,7 @@ id {
 }
 
 id::after {
-  content: '\A        ';
+  content: '\A';
   white-space: pre;
   margin-bottom: 12px;
 }
@@ -69,6 +69,88 @@ phone::after
   content: ' | ';
 }
 
+academic-information {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
 academic-information::before {
-  content: '\9\9 Academic Information';
+  content: 'Academic Information';
+  display: block;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 50px;
+}
+
+status-year,
+gpa,
+major,
+minor,
+status-enrollment,
+advisor,
+date-initial-enrollment,
+graduation-date
+{
+  display: block;
+  margin-left: 100px;
+}
+
+/* status-year::after,
+gpa::after,
+major::after,
+minor:not(:empty)::after,
+status-enrollment::after,
+advisor::after,
+date-initial-enrollment::after
+{
+  content: ' | ';
+} */
+
+status-year::before
+{
+  content: 'Status Year: ';
+  font-weight: 500;
+}
+
+gpa::before
+{
+  content: 'Total GPA: ';
+  font-weight: 500;
+}
+
+major::before
+{
+  content: 'Major: ';
+  font-weight: 500;
+}
+
+minor:not(:empty)::before
+{
+  content: 'Minor: ';
+  font-weight: 500;
+}
+
+status-enrollment::before
+{
+  content: 'Enrollment Status: ';
+  font-weight: 500;
+}
+
+advisor::before
+{
+  content: 'Advisor: ';
+  font-weight: 500;
+}
+
+date-initial-enrollment::before
+{
+  content: 'Enrollment Date: ';
+  font-weight: 500;
+}
+
+graduation-date:not(:empty)::before
+{
+  content: 'Graduation Date: ';
+  font-weight: 500;
 }
