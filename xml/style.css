@@ -15,6 +15,7 @@ student::before {
 
 :root::before {
   content: 'Student Log';
+  display: block;
   text-align: center;
   font-size: 2.5rem;
   margin: 24px 0;
@@ -22,12 +23,12 @@ student::before {
 
 student::before {
   content: '' attr(name) '';
+  display: block;
   font-size: 2rem;
 }
 
 
 id {
-  content: 'ID: ' attr(value);
   font-weight: 500;
   font-size: 1.25rem;
 }
@@ -35,7 +36,6 @@ id {
 id::after {
   content: '\A';
   white-space: pre;
-  margin-bottom: 12px;
 }
 
 first-name {
@@ -44,32 +44,28 @@ first-name {
 }
 
 middle-name,
-last-name
-{
+last-name {
   font-weight: 500;
 }
 
-preferred-name,
-preferred-name:not(:empty)::before
-{
-  font-style: italic;
+preferred-name:not(:empty)::before {
   content: '"';
 }
 
-preferred-name:not(:empty)::after
-{
+preferred-name:not(:empty) {
+  font-style: italic;
+}
+
+preferred-name:not(:empty)::after {
+  font-style: normal;
   content: '" |';
 }
 
-preferred-name::after
-{
-  font-style: normal;
+preferred-name:empty::after {
   content: '|';
 }
 
-email::after,
-phone::after
-{
+email::after {
   content: ' | ';
 }
 
@@ -94,67 +90,49 @@ minor,
 status-enrollment,
 advisor,
 date-initial-enrollment,
-graduation-date
-{
+graduation-date {
   display: block;
   margin-left: 100px;
 }
 
-/* status-year::after,
-gpa::after,
-major::after,
-minor:not(:empty)::after,
-status-enrollment::after,
-advisor::after,
-date-initial-enrollment::after
-{
-  content: ' | ';
-} */
+/* Academic Information Titles */
 
-status-year::before
-{
+status-year::before {
   content: 'Status Year: ';
   font-weight: 500;
 }
 
-gpa::before
-{
+gpa::before {
   content: 'Total GPA: ';
   font-weight: 500;
 }
 
-major::before
-{
+major::before {
   content: 'Major: ';
   font-weight: 500;
 }
 
-minor:not(:empty)::before
-{
+minor:not(:empty)::before {
   content: 'Minor: ';
   font-weight: 500;
 }
 
-status-enrollment::before
-{
+status-enrollment::before {
   content: 'Enrollment Status: ';
   font-weight: 500;
 }
 
-advisor::before
-{
+advisor::before {
   content: 'Advisor: ';
   font-weight: 500;
 }
 
-date-initial-enrollment::before
-{
+date-initial-enrollment::before {
   content: 'Enrollment Date: ';
   font-weight: 500;
 }
 
-graduation-date:not(:empty)::before
-{
+graduation-date:not(:empty)::before {
   content: 'Graduation Date: ';
   font-weight: 500;
 }
