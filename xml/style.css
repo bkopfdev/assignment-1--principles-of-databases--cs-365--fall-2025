@@ -38,7 +38,11 @@ id::after {
   margin-bottom: 12px;
 }
 
-first-name,
+first-name {
+  font-weight: 500;
+  margin-left: 50px;
+}
+
 middle-name,
 last-name
 {
