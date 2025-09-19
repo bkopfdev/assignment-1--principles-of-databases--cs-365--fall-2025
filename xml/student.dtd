@@ -11,8 +11,8 @@
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 
-<!ELEMENT academic-information (status-year, gpa, major, minor?, status-enrollment, advisor, date-initial-enrollment, graduation-date?)>
-<!ELEMENT status-year (first-year | second-year | third-year | fourth-year | graduate)>
+<!ELEMENT academic-information (status-year,gpa,major,minor?,status-enrollment,advisor,date-initial-enrollment,graduation-date?)>
+<!ELEMENT status-year (#PCDATA)>
 <!ELEMENT gpa (#PCDATA)>
 <!ELEMENT major (#PCDATA)>
 <!ELEMENT minor (#PCDATA)>

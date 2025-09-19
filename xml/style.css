@@ -25,7 +25,50 @@ student::before {
   font-size: 2rem;
 }
 
+
 id {
+  content: 'ID: ' attr(value);
   font-weight: 500;
   font-size: 1.25rem;
+}
+
+id::after {
+  content: '\A        ';
+  white-space: pre;
+  margin-bottom: 12px;
+}
+
+first-name,
+middle-name,
+last-name
+{
+  font-weight: 500;
+}
+
+preferred-name,
+preferred-name:not(:empty)::before
+{
+  font-style: italic;
+  content: '"';
+}
+
+preferred-name:not(:empty)::after
+{
+  content: '" |';
+}
+
+preferred-name::after
+{
+  font-style: normal;
+  content: '|';
+}
+
+email::after,
+phone::after
+{
+  content: ' | ';
+}
+
+academic-information::before {
+  content: '\9\9 Academic Information';
 }
