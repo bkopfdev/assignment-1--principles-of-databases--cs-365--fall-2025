@@ -3,8 +3,7 @@
 <!DOCTYPE student-log SYSTEM "student.dtd">
 
 <student-log>
-  <student>
-    <id>1234567</id>
+  <student id = "1234567">
     <first-name>Gordon</first-name>
     <middle-name>Matthew</middle-name>
     <last-name>Sumner</last-name>
@@ -25,8 +24,7 @@
     </academic-information>
   </student>
 
-  <student>
-    <id>4567890</id>
+  <student id = "4567890">
     <first-name>Kim</first-name>
     <middle-name></middle-name>
     <last-name>Thayil</last-name>
@@ -47,8 +45,7 @@
     </academic-information>
   </student>
 
-  <student>
-    <id>8302438</id>
+  <student id = "8302438">
     <first-name>Saul</first-name>
     <middle-name></middle-name>
     <last-name>Hudson</last-name>
@@ -69,8 +66,7 @@
     </academic-information>
   </student>
 
-  <student>
-    <id>2983928</id>
+  <student id = "2983928">
     <first-name>Emily</first-name>
     <middle-name></middle-name>
     <last-name>Kokal</last-name>
@@ -91,8 +87,7 @@
     </academic-information>
   </student>
 
-  <student>
-    <id>7645726</id>
+  <student id = "7645726">
     <first-name>Mike</first-name>
     <middle-name></middle-name>
     <last-name>Inez</last-name>

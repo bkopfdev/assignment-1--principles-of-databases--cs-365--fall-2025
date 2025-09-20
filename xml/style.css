@@ -22,11 +22,10 @@ student::before {
 }
 
 student::before {
-  content: '' attr(name) '';
+  content: '' attr(id) '  ';
   display: block;
   font-size: 2rem;
 }
-
 
 id {
   font-weight: 500;
