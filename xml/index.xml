@@ -12,7 +12,7 @@
       <email>sting@thepolice.com</email>
       <phone>212.123.4567</phone>
     </contact-info>
-    <academic-information>
+    <academic-info>
       <status-year>first-year</status-year>
       <gpa>4.0</gpa>
       <major>Music</major>
@@ -21,7 +21,7 @@
       <advisor>Andy Summers</advisor>
       <date-initial-enrollment>08-25-1969</date-initial-enrollment>
       <graduation-date>05-01-1973</graduation-date>
-    </academic-information>
+    </academic-info>
   </student>
 
   <student id = "4567890">
@@ -33,7 +33,7 @@
       <email>kim@soundgarden.com</email>
       <phone>206.123.4567</phone>
     </contact-info>
-    <academic-information>
+    <academic-info>
       <status-year>second-year</status-year>
       <gpa>3.0</gpa>
       <major>Philosophy</major>
@@ -42,7 +42,7 @@
       <advisor>Chris Cornell</advisor>
       <date-initial-enrollment>08-25-1978</date-initial-enrollment>
       <graduation-date>05-01-1982</graduation-date>
-    </academic-information>
+    </academic-info>
   </student>
 
   <student id = "8302438">
@@ -54,7 +54,7 @@
       <email>slash@gnr.com</email>
       <phone>213.456.8392</phone>
     </contact-info>
-    <academic-information>
+    <academic-info>
       <status-year>fourth-year</status-year>
       <gpa>2.0</gpa>
       <major>Music</major>
@@ -63,7 +63,7 @@
       <advisor>Axl Rose</advisor>
       <date-initial-enrollment>08-25-1983</date-initial-enrollment>
       <graduation-date>05-01-1987</graduation-date>
-    </academic-information>
+    </academic-info>
   </student>
 
   <student id = "2983928">
@@ -75,7 +75,7 @@
       <email>emily@warpaint.com</email>
       <phone>213.123.7654</phone>
     </contact-info>
-    <academic-information>
+    <academic-info>
       <status-year>third-year</status-year>
       <gpa>3.8</gpa>
       <major>Political Science</major>
@@ -84,7 +84,7 @@
       <advisor>Jenny Lee Lindberg</advisor>
       <date-initial-enrollment>08-25-1998</date-initial-enrollment>
       <graduation-date>05-01-2002</graduation-date>
-    </academic-information>
+    </academic-info>
   </student>
 
   <student id = "7645726">
@@ -96,7 +96,7 @@
       <email>mike@aic.com</email>
       <phone>213.444.3323</phone>
     </contact-info>
-    <academic-information>
+    <academic-info>
       <status-year>second-year</status-year>
       <gpa>4.0</gpa>
       <major>Business Management</major>
@@ -105,7 +105,7 @@
       <advisor>Jerry Cantrell</advisor>
       <date-initial-enrollment>08-25-1984</date-initial-enrollment>
       <graduation-date>05-01-1988</graduation-date>
-    </academic-information>
+    </academic-info>
   </student>
 
 </student-log>

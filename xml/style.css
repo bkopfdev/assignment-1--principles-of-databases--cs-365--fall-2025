@@ -68,13 +68,13 @@ email::after {
   content: ' | ';
 }
 
-academic-information {
+academic-info {
   display: block;
   margin-top: 10px;
   margin-bottom: 16px;
 }
 
-academic-information::before {
+academic-info::before {
   content: 'Academic Information';
   display: block;
   font-weight: 500;

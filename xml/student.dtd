@@ -1,20 +1,24 @@
 <!ELEMENT student-log (student)+>
 
-<!ELEMENT student (id?, first-name, middle-name?, last-name, preferred-name?, contact-info, academic-information)>
-<!ELEMENT id (#PCDATA)>
+<!-- A student is defined as someone  who has a first name, last name, full contact info and full academic info.
+- A student does not need a middle-name, preferred-name, minor, or graduation-date by design. Not all students have a middle or preferred name, not everyone gets a minor, and not everyone knows when they will graduate -->
+<!ELEMENT student (first-name, middle-name?, last-name, preferred-name?, contact-info, academic-info)>
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT middle-name (#PCDATA)>
 <!ELEMENT last-name (#PCDATA)>
 <!ELEMENT preferred-name (#PCDATA)>
 
+<!-- id CDATA is a required field used to differentiate students from eachother. It's shown in the frontend through the css, using an [attr] field -->
 <!ATTLIST student
           id CDATA #REQUIRED>
 
+<!-- All the information related to contact-info -->
 <!ELEMENT contact-info (email, phone)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 
-<!ELEMENT academic-information (status-year,gpa,major,minor?,status-enrollment,advisor,date-initial-enrollment,graduation-date?)>
+<!-- All the information related to academic-info -->
+<!ELEMENT academic-info (status-year,gpa,major,minor?,status-enrollment,advisor,date-initial-enrollment,graduation-date?)>
 <!ELEMENT status-year (#PCDATA)>
 <!ELEMENT gpa (#PCDATA)>
 <!ELEMENT major (#PCDATA)>
