@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="style.css"?>
 <!DOCTYPE student-log SYSTEM "student.dtd">
 
-<!-- I utilized the attr function in the DTD with the "id" attribute for each student. But, other than that, I decided to simply fill in the content for each, much like the music-library example I referenced from the repo-->
+<!-- I utilized the attr function in the DTD with the "id" attribute for each student, along with the enrollment and year status (because its an enum). But, other than that, I decided to simply fill in the content for each, much like the music-library example I referenced from the repo-->
 <student-log>
   <student id = "1234567">
     <first-name>Gordon</first-name>
@@ -13,12 +13,11 @@
       <email>sting@thepolice.com</email>
       <phone>212.123.4567</phone>
     </contact-info>
+    <status enrollment="full-time" year="first-year"></status>
     <academic-info>
-      <status-year>first-year</status-year>
       <gpa>4.0</gpa>
       <major>Music</major>
       <minor>English</minor>
-      <status-enrollment>full-time</status-enrollment>
       <advisor>Andy Summers</advisor>
       <date-initial-enrollment>08-25-1969</date-initial-enrollment>
       <graduation-date>05-01-1973</graduation-date>
@@ -34,12 +33,11 @@
       <email>kim@soundgarden.com</email>
       <phone>206.123.4567</phone>
     </contact-info>
+    <status enrollment="full-time" year="second-year"></status>
     <academic-info>
-      <status-year>second-year</status-year>
       <gpa>3.0</gpa>
       <major>Philosophy</major>
       <minor>Music</minor>
-      <status-enrollment>full-time</status-enrollment>
       <advisor>Chris Cornell</advisor>
       <date-initial-enrollment>08-25-1978</date-initial-enrollment>
       <graduation-date>05-01-1982</graduation-date>
@@ -55,12 +53,11 @@
       <email>slash@gnr.com</email>
       <phone>213.456.8392</phone>
     </contact-info>
+    <status enrollment="part-time" year="fourth-year"></status>
     <academic-info>
-      <status-year>fourth-year</status-year>
       <gpa>2.0</gpa>
       <major>Music</major>
       <minor>Criminal Justice</minor>
-      <status-enrollment>part-time</status-enrollment>
       <advisor>Axl Rose</advisor>
       <date-initial-enrollment>08-25-1983</date-initial-enrollment>
       <graduation-date>05-01-1987</graduation-date>
@@ -76,12 +73,11 @@
       <email>emily@warpaint.com</email>
       <phone>213.123.7654</phone>
     </contact-info>
+    <status enrollment="full-time" year="third-year"></status>
     <academic-info>
-      <status-year>third-year</status-year>
       <gpa>3.8</gpa>
       <major>Political Science</major>
       <minor>Law</minor>
-      <status-enrollment>full-time</status-enrollment>
       <advisor>Jenny Lee Lindberg</advisor>
       <date-initial-enrollment>08-25-1998</date-initial-enrollment>
       <graduation-date>05-01-2002</graduation-date>
@@ -97,12 +93,11 @@
       <email>mike@aic.com</email>
       <phone>213.444.3323</phone>
     </contact-info>
+    <status enrollment="full-time" year="second-year"></status>
     <academic-info>
-      <status-year>second-year</status-year>
       <gpa>4.0</gpa>
       <major>Business Management</major>
       <minor>Math</minor>
-      <status-enrollment>full-time</status-enrollment>
       <advisor>Jerry Cantrell</advisor>
       <date-initial-enrollment>08-25-1984</date-initial-enrollment>
       <graduation-date>05-01-1988</graduation-date>

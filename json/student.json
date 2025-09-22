@@ -11,12 +11,14 @@
           "email": "sting@thepolice.com",
           "phone": "212.123.4567"
         },
+        "status": {
+          "enrollment": "full-time",
+          "year": "first-year"
+        },
         "academic-info": {
-          "status-year": "first-year",
           "gpa": 4.0,
           "major": "Music",
           "minor": "English",
-          "status-enrollment": "full-time",
           "advisor": "Andy Summers",
           "date-initial-enrollment": "08-25-1969",
           "graduation-date": "05-01-1973"
@@ -32,12 +34,14 @@
           "email": "kim@soundgarden.com",
           "phone": "206.123.4567"
         },
+        "status": {
+          "enrollment": "full-time",
+          "year": "second-year"
+        },
         "academic-information": {
-          "status-year": "second-year",
           "gpa": 3.0,
           "major": "Philosphy",
           "minor": "Music",
-          "status-enrollment": "full-time",
           "advisor": "Chris Cornell",
           "date-initial-enrollment": "08-25-1978",
           "graduation-date": "05-01-1982"
@@ -53,12 +57,14 @@
           "email": "slash@gnr.com",
           "phone": "213.456.8392"
         },
+        "status": {
+          "enrollment": "part-time",
+          "year": "fourth-year"
+        },
         "academic-information": {
-          "status-year": "fourth-year",
           "gpa": 2.0,
           "major": "Music",
           "minor": "Criminal Justice",
-          "status-enrollment": "part-time",
           "advisor": "Axl Rose",
           "date-initial-enrollment": "08-25-1983",
           "graduation-date": "05-01-1987"
@@ -74,12 +80,14 @@
           "email": "emily@warpaint.com",
           "phone": "213.123.7654"
         },
+        "status": {
+          "enrollment": "full-time",
+          "year": "third-year"
+        },
         "academic-information": {
-          "status-year": "third-year",
           "gpa": 3.8,
           "major": "Political Science",
           "minor": "Law",
-          "status-enrollment": "full-time",
           "advisor": "Jenny Lee Lindberg",
           "date-initial-enrollment": "08-25-1998",
           "graduation-date": "05-01-2002"
@@ -95,12 +103,14 @@
           "email": "mike@aic.com",
           "phone": "213.444.3323"
         },
+        "status": {
+          "enrollment": "full-time",
+          "year": "second-year"
+        },
         "academic-information": {
-          "status-year": "second-year",
           "gpa": 4.0,
           "major": "Business Management",
           "minor": "Math",
-          "status-enrollment": "full-time",
           "advisor": "Jerry Cantrell",
           "date-initial-enrollment": "08-25-1984",
           "graduation-date": "05-01-1988"

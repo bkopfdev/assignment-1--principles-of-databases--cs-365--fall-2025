@@ -15,6 +15,7 @@
 }
 
 student::before {
+  /* Im using attributes to print the student ID for each student */
   content: '' attr(id) '  ';
   display: block;
   font-size: 2rem;
@@ -61,10 +62,13 @@ email::after {
   content: ' | ';
 }
 
-academic-info {
+status::before {
+  /* Im using attributes to print the enrollment and year status */
+  content: attr(enrollment) ' | ' attr(year);
   display: block;
-  margin-top: 10px;
-  margin-bottom: 16px;
+  margin-left: 50px;
+  margin-top: 8px;
+  font-weight: 500;
 }
 
 academic-info::before {
@@ -75,11 +79,15 @@ academic-info::before {
   margin-left: 50px;
 }
 
-status-year,
+academic-info {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
 gpa,
 major,
 minor,
-status-enrollment,
 advisor,
 date-initial-enrollment,
 graduation-date {
@@ -87,13 +95,7 @@ graduation-date {
   margin-left: 100px;
 }
 
-/* Titles for academic-info */
-
-status-year::before {
-  content: 'Status Year: ';
-  font-weight: 500;
-}
-
+/* ==== Titles for academic-info ==== */
 gpa::before {
   content: 'Total GPA: ';
   font-weight: 500;
@@ -106,11 +108,6 @@ major::before {
 
 minor:not(:empty)::before {
   content: 'Minor: ';
-  font-weight: 500;
-}
-
-status-enrollment::before {
-  content: 'Enrollment Status: ';
   font-weight: 500;
 }
 
