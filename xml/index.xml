@@ -3,6 +3,8 @@
 <!DOCTYPE student-log SYSTEM "student.dtd">
 
 <!-- I utilized the attr function in the DTD with the "id" attribute for each student, along with the enrollment and year status (because its an enum). But, other than that, I decided to simply fill in the content for each, much like the music-library example I referenced from the repo-->
+
+<!-- I've also organized some of the data into a few tabs (content-info, status, and academic-info). This was to keep things nice and tidy with some variation, rather then have each element listed down in a line.-->
 <student-log>
   <student id = "1234567">
     <first-name>Gordon</first-name>
