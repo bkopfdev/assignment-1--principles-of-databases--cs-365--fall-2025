@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/css" href="style.css"?>
 <!DOCTYPE student-log SYSTEM "student.dtd">
 
+<!-- I utilized the attr function in the DTD with the "id" attribute for each student. But, other than that, I decided to simply fill in the content for each, much like the music-library example I referenced from the repo-->
 <student-log>
   <student id = "1234567">
     <first-name>Gordon</first-name>

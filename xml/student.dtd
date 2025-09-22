@@ -1,7 +1,7 @@
 <!-- student-log (the root element) can contain one or more student elements-->
 <!ELEMENT student-log (student)+>
 
-<!-- A student element MUST contain a first name, last name, full contact info and academic info, aside from their graduation date and minor. A student does not need a middle-name, preferred-name, minor, or graduation-date by design. Not all students have a middle or preferred name, not everyone gets a minor, and not everyone knows when they will graduate -->
+<!-- student elements MUST contain a first name, last name, full contact info and academic info aside from their graduation date and minor. A student does not need a middle-name, preferred-name, minor, or graduation-date by design. Not all students have a middle or preferred name, not everyone gets a minor, and not everyone knows when they will graduate -->
 <!ELEMENT student (first-name, middle-name?, last-name, preferred-name?, contact-info, academic-info)>
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT middle-name (#PCDATA)>
@@ -12,12 +12,12 @@
 <!ATTLIST student
           id CDATA #REQUIRED>
 
-<!-- All the information related to contact-info -->
+<!-- information related to contact-info -->
 <!ELEMENT contact-info (email, phone)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 
-<!-- All the information related to academic-info -->
+<!-- information related to academic-info -->
 <!ELEMENT academic-info (status-year,gpa,major,minor?,status-enrollment,advisor,date-initial-enrollment,graduation-date?)>
 <!ELEMENT status-year (#PCDATA)>
 <!ELEMENT gpa (#PCDATA)>
